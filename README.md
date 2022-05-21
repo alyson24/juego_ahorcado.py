@@ -11,6 +11,7 @@ Lo primero que se hizo fue crear el diagrama del ahorcado, después crear una li
 "auditorio", "leon", "sandalia", "oso", "alegria", "antiguo", "album"
 - Se creo el diagrama del ahorcado 
 - cada vez que pierde el jugador se ira llenado el ahorcado hasta quedar asi:
+
                     +---+
                     |   |
                     O   |
@@ -18,6 +19,7 @@ Lo primero que se hizo fue crear el diagrama del ahorcado, después crear una li
                    / \  |
                         |
                  =========
+                 
 - El juego escoge una palabra al azar si ponemos letras incorrectas aparecerá todas las letras que pusimos anteriormente. 
 - En el caso volvamos a poner una letra que ya elegimos el juego dira que: Ya has probado esa letra. Elige otra.
 - El programa no permite poner números o símbolos solo esta programado para poner letras.
