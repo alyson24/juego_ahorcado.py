@@ -25,3 +25,20 @@ Lo primero que se hizo fue crear el diagrama del ahorcado, después crear una li
 - El programa no permite poner números o símbolos solo esta programado para poner letras.
 - Al terminar el juego en el caso si ganaste aparecerá “¡GANASTE!” y si perdiste aparece la palabra secreta mas “¡PERDISTE!”
 - Despues el juego preguntara al jugador si queremos volver a jugar 
+
+Implementación
+
+Al juego se le implemento dos cosas:
+-	Jugar con la computadora
+-	Jugar dos juagares
+
+La primera implementación consiste en que se creó dos listas de opciones y pistas, ejemplo:
+
+Opción: pavo
+Pista: navidad y comida
+La computadora te dirá cuantas letras contiene la palabra elegida te dará dos pistas, el jugador debe de ir adivinando letra por letra.
+
+La segunda implementación consiste en que el jugador 1 elige cualquier palabra y debe de escribir tres pistas, el jugador dos debe de adivinar la palabra con la ayuda de las tres pistas.
+
+Las dos formas de jugar ahorcado cuentan con 6 intentos y no se puede escribir números o signos.
+
